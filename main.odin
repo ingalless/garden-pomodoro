@@ -1,16 +1,15 @@
 package main
 
 import "core:fmt"
-import menus "menus"
 import rl "vendor:raylib"
 
-width: i32 = 1280
-height: i32 = 720
-grid_padding: i32 = 40
-grid_width: i32 = 8
-grid_height: i32 = 5
-grid_total: i32 = grid_width * grid_height
-grid_gutter: i32 = 5
+width: i32 : 1280
+height: i32 : 720
+grid_padding: i32 : 40
+grid_width: i32 : 8
+grid_height: i32 : 5
+grid_total: i32 : grid_width * grid_height
+grid_gutter: i32 : 5
 
 Tile :: struct {
 	x:    i32,
